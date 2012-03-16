@@ -7,3 +7,5 @@ $helvetica: "helvetica neue", arial, helvetica, freesans,
 body {
   //color: #fff;
   font-family: $helvetica; }
+ html, body {
+	height: 100%; width: 100%; margin: 0; padding: 0; } 

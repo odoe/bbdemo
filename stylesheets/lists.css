@@ -1,6 +1,14 @@
-/* line 7, ../sass/theme.scss */
+/* line 7, Z:/ags/dev/testing/bbdemo/sass/theme.scss */
 body {
   font-family: "helvetica neue", arial, helvetica, freesans, "libaration sans", "numbus sans l", sans-serif;
+}
+
+/* line 10, Z:/ags/dev/testing/bbdemo/sass/theme.scss */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 /* line 4, ../sass/lists.scss */
