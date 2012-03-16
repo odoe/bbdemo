@@ -1,0 +1,21 @@
+@import "sassy-buttons";
+@import "theme";
+
+#sidebar {
+  background: $main_color;
+  color: #fff;
+  overflow: auto;
+  position: absolute;
+  width: 200px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+    ul {
+      li {
+        display: block;
+        a {
+          margin-left: 0em;
+          margin-right: 0em;
+          width: 75%;
+          @include sassy-button("flat", 0, 12px, $main_color, desaturate($main_color, 25%));
+          text-decoration: none; }}}}

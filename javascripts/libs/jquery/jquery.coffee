@@ -1,0 +1,2 @@
+define ['loader'], (Loader)->
+  Loader.$
